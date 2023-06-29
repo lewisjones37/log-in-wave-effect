@@ -34,8 +34,21 @@ body {
     color: navy;
 }
 
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 25px;
+}
 .form-control {
     position: relative;
+    margin: 20px;
+    width: 300px;
 }
 
 .form-control input {
