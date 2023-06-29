@@ -17,3 +17,40 @@ body {
     overflow: hidden;
     margin: 0;
 }
+
+.container {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px 40px;
+    border-radius: 25px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container a{
+    text-decoration: none;
+    color: navy;
+}
+
+.form-control {
+    position: relative;
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.form-control input:focus, 
+.form-control input:valid {
+    outline: 0;
+}
